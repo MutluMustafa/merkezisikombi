@@ -1,0 +1,150 @@
+#skin-switcher {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 139px;
+  z-index: 9998;
+}
+
+#switcher-toggle {
+  background: #fff;
+  cursor: pointer;
+  display: block;
+  float: right;
+  position: absolute;
+  top: 12px;
+  right: -21px;
+  width: 22px;
+  height: 25px;
+
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  -webkit-box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    2px 0px 2px rgba(0, 0, 0, 0.15);
+  box-shadow:         2px 0px 2px rgba(0, 0, 0, 0.15);
+}
+
+#switcher-toggle .icon-toggle {
+  background: #fff url(../images/bullets/bullet-1.gif) no-repeat center center;
+  margin: 5px;
+  width: 12px;
+  height: 15px;
+  transform: rotate(180deg);
+}
+
+#skin-list {
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 360px;
+  z-index: 9999;
+
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  -webkit-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    1px 0px 3px rgba(0, 0, 0, 0.15);
+  box-shadow:         1px 0px 3px rgba(0, 0, 0, 0.15);
+}
+
+.skin-list-container {
+  clear: both;
+}
+
+.skin-item {
+  border-bottom: 1px solid #e3e3e3;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+  padding: 12px 15px;
+  text-align: center;
+  width: 120px;
+}
+
+.skin-item.active-skin {
+  background: #b3b3b3;
+  background: -moz-linear-gradient(top,  #b3b3b3 0%, #565656 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3b3b3), color-stop(100%,#565656));
+  background: -webkit-linear-gradient(top,  #b3b3b3 0%,#565656 100%);
+  background: -o-linear-gradient(top,  #b3b3b3 0%,#565656 100%);
+  background: -ms-linear-gradient(top,  #b3b3b3 0%,#565656 100%);
+  background: linear-gradient(to bottom,  #b3b3b3 0%,#565656 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#565656',GradientType=0 );
+  color: #fff;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+}
+
+.skin-item img {
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 2px;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:    0px 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow:         0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Boxed */
+
+#boxed-layout .big_white {
+  color: #666 !important;
+}
+
+
+/* Boxed Out */
+
+#boxed-layout.boxed-out {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#boxed-layout.boxed-out #top {
+  background: #fff;
+  padding-top: 0;
+}
+
+#boxed-layout.boxed-out #primary .otw-primary-menu > li > a,
+#boxed-layout.boxed-out #otw-site-slogan,
+#boxed-layout.boxed-out #language-menu ul li a {
+  color: #6c6c6c;
+}
+
+#boxed-layout.boxed-out #otw-site-title img {
+  display: none;
+}
+#boxed-layout.boxed-out #otw-site-title a {
+  background-image: url(../images/adorable-logo-black.png);
+  display: block;
+  margin-top: 11px;
+  width: 104px;
+  height: 29px;
+}
+
+
+/* Header Out */
+
+#boxed-layout.header-out #page-content {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
